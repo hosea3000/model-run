@@ -42,7 +42,7 @@ def create_embeddings():
                 }
             }), 400
 
-        logger.info(f"Processing image input: {type(image_input)}")
+        logger.info(f"Processing image input: {image_input}")
 
         extractor = ImageVectorExtractor()
         vector_info = extractor.extract_vector_and_info(image_input)
