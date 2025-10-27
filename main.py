@@ -90,7 +90,7 @@ async def create_embeddings(request: ImageEmbeddingRequest):
             'data': [
                 {
                     'object': 'embedding',
-                    'embedding': vector_list,
+                    'embedding': vector_list[0],
                     'index': 0
                 }
             ],
