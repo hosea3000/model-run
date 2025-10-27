@@ -1,0 +1,55 @@
+# Git 相关文件
+.git
+.gitignore
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试文件
+test/
+tests/
+
+# Docker 相关
+Dockerfile
+.dockerignore
+
+# 其他不需要的文件
+*.DS_Store
+Thumbs.db
